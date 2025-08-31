@@ -11,11 +11,11 @@ int main()
     scanf("%d", &b);
     printf("Enter third number: ");
     scanf("%d", &c);
-    if (a > b && a > c)
+    if (a >= b && a >= c)
     {
         printf("%d is the largest number", a);
     }
-    else if (b > a && b > c)
+    else if (b >= a && b >= c)
     {
         printf("%d is the largest number", b);
     }
